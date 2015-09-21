@@ -11,5 +11,9 @@ package module.controller;
  * @author prac-sistemas
  */
 public class Ripsc {
+    public String quit(String Facturas) {
+  // Para el reemplazo usamos un string vacío 
+  return Facturas.replaceAll("\n", ""); 
+}
     
 }

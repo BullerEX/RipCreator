@@ -26,8 +26,8 @@ public class Coneccion{
     public Connection Conectar() throws SQLException {
 
          
-        String conUrl = "jdbc:sqlserver://atipax\\cohan_atipax:136;DatabaseName=STRONE; user=prac-sis; password=cohan2015;";
-
+        //String conUrl = "jdbc:sqlserver://atipax\\cohan_atipax;DatabaseName=STONE; user=prac-sis; password=cohan2015;";
+        String conUrl = "jdbc:sqlserver://cohan2;DatabaseName=STONE; user=prac-sis; password=cohan2015;";
         
             // ...
 	    Connection cn = DriverManager.getConnection(conUrl);
